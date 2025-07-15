@@ -1,0 +1,9 @@
+<div class="face-capture">
+    <div *ngIf="loading">Carregando modelos...</div>
+    <video #video autoplay muted playsinline width="300" height="225"></video>
+  
+    <div *ngIf="!loading && detectedExpression">
+      <p>Expressão detectada: <strong>{{ detectedExpression }}</strong></p>
+    </div>
+  </div>
+  

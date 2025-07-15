@@ -3,10 +3,12 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FaceCaptureComponent } from './components/face-capture/face-capture.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FaceCaptureComponent
   ],
   imports: [
     BrowserModule,
