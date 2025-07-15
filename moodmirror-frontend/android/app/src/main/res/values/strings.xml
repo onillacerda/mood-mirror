@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">moodmirror</string>
+    <string name="title_activity_main">moodmirror</string>
+    <string name="package_name">com.mood.mirror</string>
+    <string name="custom_url_scheme">com.mood.mirror</string>
+</resources>
